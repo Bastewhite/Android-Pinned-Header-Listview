@@ -1,21 +1,16 @@
 package com.pc.customlist;
 
-public class Book implements Comparable<Book>
-{    
+public class Book implements Comparable<Book> {
     private String title;
-    
+
     private String author;
-    
+
     private String year;
-    
+
     private String country;
-    
+
     private String language;
 
-    public Book() {
-        // TODO Auto-generated constructor stub
-    }
-    
     public Book(String title, String author, String year, String country, String language) {
         super();
         this.title = title;
